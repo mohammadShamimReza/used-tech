@@ -124,7 +124,7 @@ const { products } = useAppSelector((state) => state.cart);
             </div>
             <div className="flex justify-between text-xl font-bold">
               <p>Total</p>
-              <p>81.95$</p>
+              <p>{}$</p>
             </div>
             <Button className="w-full">Checkout</Button>
           </div>

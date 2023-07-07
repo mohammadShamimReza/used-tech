@@ -9,6 +9,7 @@ interface ICart {
 const initialState: ICart = {
   products: [],
   total: 0,
+  // status:
 };
 
 const cartSlice = createSlice({
